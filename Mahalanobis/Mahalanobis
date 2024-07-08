@@ -1,0 +1,17 @@
+import numpy as np
+from scipy.spatial.distance import mahalanobis
+
+def mahalanobis_distance(x, y, cov_matrix):
+    x_minus_y = x - y
+    inv_cov_matrix = np.linalg.inv(cov_matrix)
+    dist = np.sqrt(np.dot(np.dot(x_minus_y, inv_cov_matrix), x_minus_y.T))
+    return dist
+
+# Example usage
+data = np.array([[2, 3], [3, 4], [5, 6], [6, 7]])
+cov_matrix = np.cov(data.T)
+x = np.array([4, 5])
+y = np.array([1, 1])
+
+dist = mahalanobis_distance(x, y, cov_matrix)
+print("Mahalanobis Distance:", dist)
