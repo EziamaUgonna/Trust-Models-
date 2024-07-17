@@ -1,4 +1,4 @@
-Yes, you can apply any standard data to evaluate the Bayesian trust model. Here, I’ll provide a comprehensive example using a standard dataset to demonstrate how to integrate data and compute evaluation metrics such as accuracy, F1 score, TPR (True Positive Rate), and FPR (False Positive Rate).
+ata and compute evaluation metrics such as accuracy, F1 score, TPR (True Positive Rate), and FPR (False Positive Rate).
 
 ### Step-by-Step Implementation
 
