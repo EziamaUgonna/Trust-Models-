@@ -2,13 +2,13 @@
 
 ### Step-by-Step Implementation
 
-1. **Choose a Dataset**: For this example, we will use a standard dataset. Suppose we are working with a dataset that contains interaction records and labels indicating trustworthiness. For simplicity, let's create synthetic data.
+1.##Choose a Dataset**: For this example, we will use a standard dataset. Suppose we are working with a dataset that contains interaction records and labels indicating trustworthiness. For simplicity, let's create synthetic data.
 
-2. **Preprocess the Data**: Extract positive and negative interactions for each node.
+2. ##Preprocess the Data**: Extract positive and negative interactions for each node.
 
-3. **Train the Bayesian Trust Model**: Update the trust values based on interactions.
+3. ##Train the Bayesian Trust Model**: Update the trust values based on interactions.
 
-4. **Evaluate the Model**: Compute the evaluation metrics.
+4. ##Evaluate the Model**: Compute the evaluation metrics.
 
 ### Example Code
 
