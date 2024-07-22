@@ -6,10 +6,7 @@ Welcome to the Trust-Models repository! This project contains implementations of
 ### Table of Contents
 - [Introduction](#introduction)
 - [Models Included](#models-included)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ### Introduction
 With the increasing deployment of VANETs, IoT, and CAVs, ensuring the security and reliability of these networks is crucial. Trust models play a significant role in detecting and mitigating anomalies and cyber-attacks. This repository provides implementations of various trust models to facilitate research and development in this area.
